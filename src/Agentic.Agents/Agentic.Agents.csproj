@@ -1,0 +1,11 @@
+﻿<Project Sdk="Microsoft.NET.Sdk">
+
+  <ItemGroup>
+    <ProjectReference Include="..\Agentic.Orchestration\Agentic.Orchestration.csproj" />
+  </ItemGroup>
+
+  <ItemGroup>
+    <InternalsVisibleTo Include="Agentic.Orchestration.Tests" />
+  </ItemGroup>
+
+</Project>
